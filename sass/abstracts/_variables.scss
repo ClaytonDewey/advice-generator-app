@@ -1,0 +1,28 @@
+// Breakpoints
+$bp-small: 23.4375em; // 375x;
+$bp-large: 90em; // 1440px;
+
+// Media Queries
+$mq-small: 'screen and (min-width: #{$bp-small})';
+$mq-large: 'screen and (min-width: #{$bp-large})';
+
+
+// Colors
+$clr-primary-cyan: hsl(193, 38%, 86%);
+$clr-primary-green:hsl(150, 100%, 66%);
+
+$clr-light: hsl(217, 19%, 38%);
+$clr-dark-gray: hsl(217, 19%, 24%);
+$clr-dark: hsl(218, 23%, 16%);
+
+// Font family
+$ff-sans: "Manrope", sans-serif;
+
+// Font sizes
+$fs-300: 2.8rem;
+$fs-200: 2.3rem;
+$fs-100: 1.1rem;
+
+// Font weights
+$fw-800: 800;
+$fw-400: 400;
