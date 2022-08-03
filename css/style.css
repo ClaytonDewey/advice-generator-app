@@ -643,7 +643,7 @@ blockquote {
     background-color: #52ffa8;
     border-radius: 5rem;
     text-transform: uppercase; }
-    .btn-primary:hover, .btn-primary:focus {
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
       background-color: #52ffa8;
       box-shadow: 0 0 3rem #52ffa8; }
 

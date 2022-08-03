@@ -14,7 +14,8 @@
     text-transform: uppercase;
 
     &:hover,
-    &:focus {
+    &:focus,
+    &:active {
       background-color: $clr-primary-green;
       box-shadow: 0 0 3rem $clr-primary-green;
     }
