@@ -7,7 +7,7 @@ button.addEventListener("click", generateAdvice);
 window.addEventListener("load", generateAdvice);
 
 function generateAdvice() {
-  fetch("	https://api.adviceslip.com/advice")
+  fetch("	https://api.adviceslip.com/advice", { cache: "no-cache" })
     .then((res) => {
       if (res.ok) {
         return res.json();
